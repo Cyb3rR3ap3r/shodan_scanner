@@ -15,7 +15,6 @@ ________________________________________________________________________________
 git clone https://github.com/trevorisenberg94/shodan_scanner.git
 cd shodan_scanner
 pip3 install -r requirements.txt
-.\scanner.py
 ```
 _____________________________________________________________________________________________
 
