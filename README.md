@@ -20,4 +20,6 @@ ________________________________________________________________________________
 
 **How to Use:**
 
-
+**Resources:**
+https://developer.shodan.io/api
+https://shodan.readthedocs.io/en/latest/
