@@ -6,7 +6,7 @@ Verison 1.1 = Added Choice between Search, Hosts, and Scans
               Added ImportError to Shodan Library Import
               Removed limit variable / Need to add y or n input for this 
               
-Verison 1.0 = Initial Releash
+Verison 1.0 = Initial Release
 _____________________________________________________________________________________________
 
 Shodan Scanner is a basic scanner of Shodan's API using an exisiting API key that is provided by...  https://account.shodan.io/
