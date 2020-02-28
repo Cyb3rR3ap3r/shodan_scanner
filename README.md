@@ -1,7 +1,7 @@
 # Shodan Scanner
 **Verison Control:**
 
-- Verison 1.1 =
+- Verison 1.1
 
     -Added Choice between Search, Hosts, and Scans
 
@@ -11,7 +11,7 @@
 
     -Removed limit variable / Need to add y or n input for this               
               
-- Verison 1.0 = 
+- Verison 1.0 
 
     -Initial Release
 _____________________________________________________________________________________________
