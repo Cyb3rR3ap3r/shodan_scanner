@@ -1,20 +1,19 @@
 # Shodan Scanner
 **Verison Control:**
 
-Verison 1.1 = 
+- Verison 1.1 =
 
-Added Choice between Search, Hosts, and Scans
+    -Added Choice between Search, Hosts, and Scans
 
-Cleaned code / bug fixed 
+    -Cleaned code / bug fixed 
 
-Added ImportError to Shodan Library Import
+    -Added ImportError to Shodan Library Import
 
-Removed limit variable / Need to add y or n input for this 
-_____________________________________________________________________________________________              
+    -Removed limit variable / Need to add y or n input for this               
               
-Verison 1.0 = 
+- Verison 1.0 = 
 
-Initial Release
+    -Initial Release
 _____________________________________________________________________________________________
 
 
