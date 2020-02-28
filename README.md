@@ -1,11 +1,23 @@
 # Shodan Scanner
 **Verison Control:**
 
+- Verison 1.2
+
+    -Added Summary search to search for Top companies that run a service
+    
+    -Added different banner using pyfiglet library 
+    
+    -Added progress bar with tqdm library
+    
+    -Enhanced UI with better different color text 
+    
+    -Various bug fixes 
+
 - Verison 1.1
 
     -Added Choice between Search, Hosts, and Scans
 
-    -Cleaned code / bug fixed 
+    -Cleaned code / bug fixes 
 
     -Added ImportError to Shodan Library Import
 
