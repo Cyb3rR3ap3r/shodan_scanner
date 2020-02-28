@@ -66,7 +66,7 @@ print("\n")
 
 time.sleep(0.5)
 
-def scanner():  # Main Defintion for the scanner
+def scanner():  # Main function for the scanner
 	if os.path.exists("./api.txt"):  # If / Else stat for api key
 		with open("api.txt", "r") as file:  # Open as read only if file exsists
 			api_key = file.readline()
