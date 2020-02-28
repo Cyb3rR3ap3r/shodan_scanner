@@ -39,3 +39,5 @@ ________________________________________________________________________________
 https://developer.shodan.io/api
 
 https://shodan.readthedocs.io/en/latest/
+
+https://readthedocs.org/projects/shodan/downloads/pdf/latest/
