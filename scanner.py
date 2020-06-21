@@ -8,18 +8,18 @@
 #    Added Summary search to search for Top companies that run a service        #
 #    Added different banner using pyfiglet library                              #
 #    Added progress bar with tqdm library                                       #
-#    Enhanced UI with better different color text                               # 
+#    Enhanced UI with better different color text                               #
 #    Various bug fixes                                                          #
 #                                                                               #
 # Furture Changes...                                                            #
-#    Output to file                                                             #        
+#    Output to file                                                             #
 #    Better Error Handling                                                      #
 #    Help menu with common Shodan search filters                                #
 #                                                                               #
 # Developer: Trevor Isenberg                                                    #
 # Date: 02/26/2020                                                              #
 #                                                                               #
-#################################################################################                
+#################################################################################
 
 import os
 import time
@@ -115,6 +115,7 @@ def scanner():  # Main function for the scanner
 		for i in tqdm(range(int(9610049))):
 				pass
 		print("\n")
+		test_connection = api.host("8.8.8.8")
 		print ("API Key Authentication: " + colored("SUCCESS", "green"))
 		print("\n")
 		print(banner_line)
@@ -132,14 +133,14 @@ def scanner():  # Main function for the scanner
 
 		if my_choice == "1":
 			my_search = input("What would you like to search? ")
-			results = api.search(my_search) 
+			results = api.search(my_search)
 			# This calls Shodan.search which returns a dictionary of info
 			# If you print(results), you  will see all info returned from shodan
 			time.sleep(0.5)
 			print("\n")
 
 			counter = counter + 1
-			for result in results['matches']: # Here we are looping through the 
+			for result in results['matches']: # Here we are looping through the
 							  # dictionary we called from shodan
 							  # to display only the info we want
 				print(line + "\n")
@@ -156,7 +157,7 @@ def scanner():  # Main function for the scanner
 				print("Result: " + (colored(counter, "green")) + "  Search Query: " + (colored(my_search, "green")))
 				print("\n")
 				time.sleep(0.4)
-			
+
 				counter += 1
 				#if counter >= limit:
 					#exit()
@@ -166,7 +167,7 @@ def scanner():  # Main function for the scanner
 			time.sleep(0.5)
 			print("\n")
 
-			for item in results['data']:			
+			for item in results['data']:
 				print(line + "\n")
 				print("IP: " + (colored(item["ip_str"], "green")))
 				print("Port: " + str(colored(item["port"], "green")))
@@ -188,7 +189,7 @@ def scanner():  # Main function for the scanner
 		elif my_choice == "4":
 			my_summary = input("What service would you like a summary for? ")
 			result = api.count(my_summary, FACETS) # Need to add argv for FACETS list
-							       # so it will output the values 
+							       # so it will output the values
 							       # within list
 			time.sleep(0.5)
 			print("\n")
@@ -204,7 +205,7 @@ def scanner():  # Main function for the scanner
 
 		else:
 			exit()
-		
+
 
 	except KeyboardInterrupt:
 		print("\n")
@@ -229,7 +230,7 @@ def scanner():  # Main function for the scanner
 		else:
 			print("Exiting...")
 			sys.exit()
-				
+
 ######### Main ##########
 
 if __name__ == "__main__":
