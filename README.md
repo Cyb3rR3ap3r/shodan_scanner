@@ -5,33 +5,6 @@
 [![python](https://img.shields.io/badge/python-3-blue.svg)](https://www.python.org/downloads/)
 
 
-**Verison Control:**
-
-- Verison 1.2
-
-    -Added Summary search to search for Top companies that run a service
-    
-    -Added different banner using pyfiglet library 
-    
-    -Added progress bar with tqdm library
-    
-    -Enhanced UI with better different color text 
-    
-    -Various bug fixes 
-
-- Verison 1.1
-
-    -Added Choice between Search, Hosts, and Scans
-
-    -Cleaned code / bug fixes 
-
-    -Added ImportError to Shodan Library Import
-
-    -Removed limit variable / Need to add y or n input for this               
-              
-- Verison 1.0 
-
-    -Initial Release
 _____________________________________________________________________________________________
 
 
