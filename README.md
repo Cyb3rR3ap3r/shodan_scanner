@@ -1,6 +1,9 @@
 # Shodan Scanner
 
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![python](https://img.shields.io/badge/python-3-blue.svg)](https://www.python.org/downloads/)
+
 
 **Verison Control:**
 
