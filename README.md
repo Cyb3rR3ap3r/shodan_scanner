@@ -4,13 +4,17 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![python](https://img.shields.io/badge/python-3-blue.svg)](https://www.python.org/downloads/)
 
-
 _____________________________________________________________________________________________
 
 
 Shodan Scanner is a basic scanner of Shodan's API using an exisiting API key that is provided by...  https://account.shodan.io/
 
 _____________________________________________________________________________________________
+
+[![asciicast](https://asciinema.org/a/gLJEYM3l5QiEJvhnT2nEP6k9Z.svg)](https://asciinema.org/a/gLJEYM3l5QiEJvhnT2nEP6k9Z)
+
+_____________________________________________________________________________________________
+
 
 **To install:**
 
@@ -80,6 +84,7 @@ To use this tool, please select one of the following...
 
 Please choose? 
 ```
+
 
 _____________________________________________________________________________________________
 
