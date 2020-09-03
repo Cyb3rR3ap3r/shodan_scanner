@@ -77,9 +77,7 @@ To use this tool, please select one of the following...
 
 1 = General Shodan Search
 2 = Search a Specific Host's IP Address
-3 = Scan an IP that may or may not be in Shodan DB
-     WARNING:  This requires paid Shodan API Key
-4 = Provide Summary for a specific service
+3 = Provide Summary for a specific service
 
 
 Please choose? 
