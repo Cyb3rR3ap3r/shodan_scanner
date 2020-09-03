@@ -72,7 +72,7 @@ def scanner():  # Main function for the scanner
 			api_key = file.readline()
 			print('Locating "./api.txt" file')
 			time.sleep(0.3)
-			for i in tqdm(range(int(1700861))):
+			for i in tqdm(range(int(170086))):
 				pass
 			time.sleep(0.3)
 			print("\n")
@@ -112,7 +112,7 @@ def scanner():  # Main function for the scanner
 
 	try:
 		print("Checking Shodan API Key...")
-		for i in tqdm(range(int(9610049))):
+		for i in tqdm(range(int(981004))):
 				pass
 		print("\n")
 		test_connection = api.host("8.8.8.8")
@@ -125,9 +125,9 @@ def scanner():  # Main function for the scanner
 		print("\n")
 		print(colored("1 = General Shodan Search", "green"))
 		print(colored("2 = Search a Specific Host's IP Address", "green"))
-		print(colored("3 = Scan an IP that may or may not be in Shodan DB", "green"))
-		print(colored("     WARNING:  This requires paid Shodan API Key", "red"))
-		print(colored("4 = Provide Summary for a specific service", "green"))
+		#print(colored("3 = Scan an IP that may or may not be in Shodan DB", "green"))
+		#print(colored("     WARNING:  This requires paid Shodan API Key", "red"))
+		print(colored("3 = Provide Summary for a specific service", "green"))
 		print("\n")
 		my_choice = input("Please choose? ")
 
@@ -180,13 +180,8 @@ def scanner():  # Main function for the scanner
 				print("\n")
 				time.sleep(0.4)
 
-		elif my_choice == "3":
-			my_scan = input("Who would you like to scan? ")
-			result = api.scan(my_scan)
-			time.sleep(0.5)
-			print(result)
 
-		elif my_choice == "4":
+		elif my_choice == "3":
 			my_summary = input("What service would you like a summary for? ")
 			result = api.count(my_summary, FACETS) # Need to add argv for FACETS list
 							       # so it will output the values
@@ -204,6 +199,7 @@ def scanner():  # Main function for the scanner
 					print(colored("%s: %s ", "green") % (item["value"], item["count"]))
 
 		else:
+			print("Invalid entry.  Exiting..")
 			exit()
 
 
