@@ -1,31 +1,9 @@
 # Shodan Scanner
-**Verison Control:**
 
-- Verison 1.2
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![python](https://img.shields.io/badge/python-3-blue.svg)](https://www.python.org/downloads/)
 
-    -Added Summary search to search for Top companies that run a service
-    
-    -Added different banner using pyfiglet library 
-    
-    -Added progress bar with tqdm library
-    
-    -Enhanced UI with better different color text 
-    
-    -Various bug fixes 
-
-- Verison 1.1
-
-    -Added Choice between Search, Hosts, and Scans
-
-    -Cleaned code / bug fixes 
-
-    -Added ImportError to Shodan Library Import
-
-    -Removed limit variable / Need to add y or n input for this               
-              
-- Verison 1.0 
-
-    -Initial Release
 _____________________________________________________________________________________________
 
 
@@ -33,10 +11,15 @@ Shodan Scanner is a basic scanner of Shodan's API using an exisiting API key tha
 
 _____________________________________________________________________________________________
 
+[![asciicast](https://asciinema.org/a/gLJEYM3l5QiEJvhnT2nEP6k9Z.svg)](https://asciinema.org/a/gLJEYM3l5QiEJvhnT2nEP6k9Z)
+
+_____________________________________________________________________________________________
+
+
 **To install:**
 
 ```
-git clone https://github.com/trevorisenberg94/shodan_scanner.git
+git clone https://github.com/Cyb3rR3ap3r/shodan_scanner.git
 cd shodan_scanner
 pip3 install -r requirements.txt
 ```
@@ -101,6 +84,7 @@ To use this tool, please select one of the following...
 
 Please choose? 
 ```
+
 
 _____________________________________________________________________________________________
 
